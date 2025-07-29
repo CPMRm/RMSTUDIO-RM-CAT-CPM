@@ -162,7 +162,7 @@ if __name__ == "__main__":
             load_player_data(cpm)
             load_key_data(cpm)
             load_client_details()
-            choices = ["0", "1", "2", "3"]
+            choices = ["0", "1", "2", "3", "4", "5"]
             print(Colorate.Horizontal(Colors.rainbow, '{01}: 皇冠等級                   100k'))
             print(Colorate.Horizontal(Colors.rainbow, '{02}: 自訂ID                     4.5K'))
             print(Colorate.Horizontal(Colors.rainbow, '{03}: 更改目前遊戲帳號綁定的Gmail 50K'))
