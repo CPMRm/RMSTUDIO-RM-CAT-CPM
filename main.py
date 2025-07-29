@@ -163,11 +163,11 @@ if __name__ == "__main__":
             load_key_data(cpm)
             load_client_details()
             choices = ["0", "1", "2", "3"]
-            print(Colorate.Horizontal(Colors.rainbow, '{01}: 皇冠等級                 100k'))
-            print(Colorate.Horizontal(Colors.rainbow, '{02}: 自訂ID                  4.5K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{01}: 皇冠等級                   100k'))
+            print(Colorate.Horizontal(Colors.rainbow, '{02}: 自訂ID                     4.5K'))
             print(Colorate.Horizontal(Colors.rainbow, '{03}: 更改目前遊戲帳號綁定的Gmail 50K'))
             print(Colorate.Horizontal(Colors.rainbow, '{04}: 更改目前遊戲帳號的密碼      50K'))
-            print(Colorate.Horizontal(Colors.rainbow, '{05}: 車輛資訊(用車輛id查看      5k'))
+            print(Colorate.Horizontal(Colors.rainbow, '{05}: 車輛資訊(用車輛id查看       5k'))
             print(Colorate.Horizontal(Colors.rainbow, '{0} : 退出腳本'))
             
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌 ]==============='))
