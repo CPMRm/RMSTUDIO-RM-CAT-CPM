@@ -116,7 +116,6 @@ class Funny:
         response_decoded = response.json()
         return response_decoded.get("ok")
            
-
     def change_email(self, new_email):
         payload = { "account_auth": self.auth_token, "new_email": new_email }
         params = { "key": self.access_key }
