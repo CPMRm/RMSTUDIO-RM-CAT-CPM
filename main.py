@@ -138,7 +138,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold][?] 密碼[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold][?] 密鑰[/bold]", "Access Key", password=False)
         console.print("[bold cyan][%] Trying to Login[/bold cyan]: ", end=None)
-        cpm = CPMRm(acc_access_key)
+        cpm = Funny(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
