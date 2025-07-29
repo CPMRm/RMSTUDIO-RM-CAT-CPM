@@ -39,7 +39,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name =  "Car Parking Multiplayer 1 Tool - @ryderchang666"
+    brand_name =  "Car Parking Multiplayer 1 Tool - RMSTUDIO"
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
@@ -69,10 +69,6 @@ def load_player_data(cpm):
             
             print(Colorate.Horizontal(Colors.rainbow, f'C幣    : {data.get("coin")}.'))
 
-            print(Colorate.Horizontal(Colors.rainbow, f'車輛    : {data.get("car")}.'))
-            
-            print(Colorate.Horizontal(Colors.rainbow, f'好友    : {data.get("friend")}.'))
-            
         else:
             print(Colorate.Horizontal(Colors.rainbow, '! ERROR: new accounts most be signed-in to the game at least once !.'))
             sleep(1)
