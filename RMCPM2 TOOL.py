@@ -25,7 +25,7 @@ import secrets
 from rich.prompt import Prompt
 from rich.progress import track
 import json
-from ryderchang2 import rmstudiocpm2  # Your game logic class
+from funny import Funny  # Your game logic class
 
 __CHANNEL_USERNAME__ = "𝘾𝙋𝙈𝟮 𝙏𝙤𝙤𝙡 𝙍𝙈𝙎𝙏𝙐𝘿𝙄𝙊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡"
 __GROUP_USERNAME__   = "𝑪𝑷𝑴𝟐 𝑻𝒐𝒐𝒍 𝑹𝑴𝑺𝑻𝑼𝑫𝑰𝑶 𝑪𝒉𝒂𝒕"
@@ -278,7 +278,7 @@ if __name__ == "__main__":
         acc_access_key = prompt_valid_value("[bold][?] Access Key[/bold]", "Access Key", password=False)
 
         loading_spinner(console, "🔐 Attempting Login")
-        cpm = rmstudiocpm2(acc_access_key)
+        cpm = Funny(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
 
         if login_response != 0:
@@ -668,4 +668,5 @@ if __name__ == "__main__":
                     continue                    
             else: continue
             break
+
         break
